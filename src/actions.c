@@ -33,7 +33,9 @@ void do_reboot(int force, int safe) {
 void ask_confirm() {
     char c;
     printf("Confirm reboot (y/n): ");
-    scanf(" %c", &c);
+    if (scanf(" %c", &c) != 1) {
+       fprintf(stderr, "Failed to read input\n"); // handle error
+    }
     if (c == 'y' || c == 'Y') {
         do_reboot(0, 0);
     } else {
