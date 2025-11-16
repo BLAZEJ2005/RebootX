@@ -23,7 +23,12 @@ void send_msg(const char *msg) {
     if (!msg) return;
     char cmd[256];
     snprintf(cmd, sizeof(cmd), "wall \"%s\"", msg);
-    system(cmd);
+    int ret = system(cmd);
+    if (ret == -1) {
+        perror("system failed");
+    } else if (WIFEXITED(ret) && WEXITSTATUS(ret) != 0) {
+          fprintf(stderr, "Command failed with exit code %d\n", WEXITSTATUS(ret));
+    }
 }
 
 void delay_reboot(int sec) {
