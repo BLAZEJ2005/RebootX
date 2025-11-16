@@ -12,7 +12,14 @@
 void do_reboot(int force, int safe) {
     sync();
     if (safe) {
-        system("umount -a >/dev/null 2>&1");
+        int ret;
+        ret = system("umount -a >/dev/null 2>&1");
+        if (ret == -1) {
+           perror("system failed");
+           // handle error
+        } else if (WEXITSTATUS(ret) != 0) {
+               fprintf(stderr, "Command failed with exit code %d\n", WEXITSTATUS(ret));
+        }
     }
     if (!force) {
         printf("Rebooting system now...\n");
