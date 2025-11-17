@@ -108,5 +108,10 @@ sudo rebootx --force --safe --msg "Rebooting in 5 seconds" --delay 5
 sudo rebootx --help
 ```
 
+## Uninstallation
+```bash
+sudo rm -f /usr/local/bin/rebootx
+```
+
 ## License
 This project is licensed under the MIT License
